@@ -1,0 +1,31 @@
+{
+  "name": "node-child-pm",
+  "version": "1.0.0",
+  "description": "manager for handling child process, automatically restart them, sending message etc...",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/super-ienien/node-child-pm.git"
+  },
+  "keywords": [
+    "node",
+    "child_process",
+    "child",
+    "process",
+    "manager",
+    "worker",
+    "restart",
+    "auto",
+    "fork",
+    "spawn"
+  ],
+  "author": "Vivien Anglesio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/super-ienien/node-child-pm/issues"
+  },
+  "homepage": "https://github.com/super-ienien/node-child-pm#readme"
+}
