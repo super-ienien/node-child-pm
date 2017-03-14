@@ -1,10 +1,10 @@
 # node-child-pm
 Manager for handling child process, automatically restart them, sending message etc
 
-##Install
+## Install
     npm install node-child-pm --save
 
-##Usage
+## Usage
 
 In this example the ls command will be executed every seconds. This is not the goal of node-child-pm. This is just for exemple.
 
@@ -13,7 +13,7 @@ In this example the ls command will be executed every seconds. This is not the g
     pm.start();
 
 
-##Reference
+## Reference
 
 class : ChildProcessManager
 - event : 'finished'
