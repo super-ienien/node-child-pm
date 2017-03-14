@@ -1,6 +1,6 @@
 {
   "name": "node-child-pm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "manager for handling child process, automatically restart them, sending message etc...",
   "main": "lib/index.js",
   "scripts": {
