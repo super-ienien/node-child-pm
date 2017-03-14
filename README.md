@@ -9,7 +9,7 @@ Manager for handling child process, automatically restart them, sending message 
 In this example the ls command will be executed every seconds. This is not the goal of node-child-pm. This is just for exemple.
 
     const ChildProcessManager = require('node-child-pm');
-    var pm = new ChildProcessManager('ls', ['-lh', '/usr']{restartDelay: 1000, cwd: './'});
+    var pm = new ChildProcessManager('ls', ['-lh', '/usr'], {restartDelay: 1000, cwd: './'});
     pm.start();
 
 
